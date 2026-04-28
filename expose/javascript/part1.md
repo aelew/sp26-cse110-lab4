@@ -1,11 +1,13 @@
 # Part 1
 
 1. Line 9 prints:
+
 ```
 values added:  20
 ```
 
 2. Line 13 prints:
+
 ```
 final result:  20
 ```
@@ -13,6 +15,7 @@ final result:  20
 3. We shouldn't use `var` because variables leak out of blocks, which can cause unintended access. `var` declarations are also hoisted and initialized as `undefined`, hiding potential bugs. Declaring the same variable twice also won't throw an error, so doing so could go unnoticed. It's better to use `const` by default and `let` if we need to reassign the value.
 
 4. Line 9 prints:
+
 ```
 values added:  20
 ```
